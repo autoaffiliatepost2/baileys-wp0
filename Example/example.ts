@@ -60,7 +60,7 @@ function testServer(){
   }
 
 app.get('/', function(req, res, next) {
-	res.send('respond with a resource');
+	res.render('respond with a resource');
   }); 
 
 store?.readFromFile('./baileys_store_multi.json')
